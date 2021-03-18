@@ -3,7 +3,7 @@ import "./Feed.css";
 import db from "./firebase";
 import MessageSender from "./MessageSender";
 import Post from "./Post";
-import StoryReel from "./StoryReel";
+
 import FlipMove from "react-flip-move";
 
 function Feed() {
@@ -19,7 +19,7 @@ function Feed() {
 
   return (
     <div className="feed">
-      <StoryReel />
+    
       <MessageSender />
 
       <FlipMove>
